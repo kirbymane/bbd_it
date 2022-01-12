@@ -21,13 +21,15 @@ Klausimai
         - [Aritmetiniai kodai. (Žiūrėti skaidres: Information_theory_Lect5_v1 )](#aritmetiniai-kodai-%C5%BEi%C5%ABr%C4%97ti-skaidres-informationtheorylect5v1)
         - [LZW kompresijos algoritmas (Žiūrėti skaidres: Information_theory_Lect5_v1 )](#lzw-kompresijos-algoritmas-%C5%BEi%C5%ABr%C4%97ti-skaidres-informationtheorylect5v1)
         - [Kanalo su triukšmu teorema. (Žiūrėti skaidres: Information_theory_Lect6_v1 )](#kanalo-su-triuk%C5%A1mu-teorema-%C5%BEi%C5%ABr%C4%97ti-skaidres-informationtheorylect6v1)
-    - [III Dalis (Skaidrės, Wikipedia, YouTube)](#iii-dalis-skaidr%C4%97s-wikipedia-youtube)
+    - [III Dalis](#iii-dalis-skaidr%C4%97s-wikipedia-youtube)
+        - [Deterministiniai ir nedeterministiniai baigtiniai automatai](#deterministiniai-ir-nedeterministiniai-baigtiniai-automatai)
+        - [Reguliariosios išraiškos](#reguliariosios-išraiškos)
+        - [Gramatikos](#gramatikos)
+        - [Tiuringo mašina](#tiuringo-maina)
+    - [IV Dalis](#iii-dalis-skaidr%C4%97s-wikipedia-youtube)
         - [Kvantinio kompiuterio veikimas](#kvantinio-kompiuterio-veikimas)
         - [Moderni kriptografija](#moderni-kriptografija)
         - [Bitcoin veikimo sprendimai](#bitcoin-veikimo-sprendimai)
-        - [Ląsteliniai automatai](#l%C4%85steliniai-automatai)
-        - [Fraktalai](#fraktalai)
-        - [Chaosas](#chaosas)
 
 ## I Dalis
 
