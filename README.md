@@ -25,7 +25,7 @@ Klausimai
         - [Deterministiniai ir nedeterministiniai baigtiniai automatai](#deterministiniai-ir-nedeterministiniai-baigtiniai-automatai)
         - [Reguliariosios išraiškos](#reguliariosios-išraiškos)
         - [Gramatikos](#gramatikos)
-        - [Tiuringo mašina](#tiuringo-maina)
+        - [Tiuringo mašina](#tiuringo-mašina)
     - [IV Dalis](#iii-dalis-skaidr%C4%97s-wikipedia-youtube)
         - [Kvantinio kompiuterio veikimas](#kvantinio-kompiuterio-veikimas)
         - [Moderni kriptografija](#moderni-kriptografija)
