@@ -367,7 +367,43 @@ Decoding:
 
 - Bet koks fizinis duomenų perdavimo kanalas negali būti 100% patikimas. Pagal Shannon’ą  galima naudoti ir nepatikima kanalą su dideliu triukšmu ir perduoti informacija patikimu būdu, t.y. nieko neprarasti. Tad reikėtų ne stengtis atrasti kuo švaresnį duomenų perdavimo būdą (didinant stiprumą - tai kainuoja ir dažniausiai neapsimoka\neįmanoma), o **optimizuoti** kodavimo ir dekodavimo algoritmus.
 
-## III Dalis (Skaidrės, Wikipedia, YouTube)
+## III Dalis
+
+### Deterministiniai ir nedeterministiniai baigtiniai automatai
+
+- Automata are abstract machines that have a finite set of states. Given some input, they transition from state to state. You can think of them sort of like flowcharts.
+
+- An NFA is a Nondeterministic Finite Automaton. Nondeterministic means it can transition to, and be in, multiple states at once (i.e. for some given input).
+
+- A DFA is a Deterministic Finite Automaton. Deterministic means that it can only be in, and transition to, one state at a time (i.e. for some given input).
+
+- The major important difference is that an NFA is usually much more efficient.
+
+### Reguliariosios išraiškos
+
+- A regular expression (shortened as regex or regexp; also referred to as rational expression) is a sequence of characters that specifies a search pattern in text. 
+- Usually such patterns are used by string-searching algorithms for "find" or "find and replace" operations on strings, or for input validation. 
+- It is a technique developed in theoretical computer science and formal language theory.
+
+### Gramatikos
+
+- Context free grammar is a formal grammar which is used to generate all possible strings in a given formal language.
+- Context free grammar G can be defined by four tuples as G= (V, T, P, S)
+- Where:
+  - G describes the grammar
+  - T describes a finite set of terminal symbols.
+  - V describes a finite set of non-terminal symbols
+  - P describes a set of production rules
+  - S is the start symbol.
+- In CFG, the start symbol is used to derive the string. You can derive the string by repeatedly replacing a non-terminal by the right hand side of the production, until all non-terminal have been replaced by terminal symbols.
+
+### Tiuringo mašina
+
+- Turing machines, first described by Alan Turing, are simple abstract computational devices intended to help investigate the extent and limitations of what can be computed. 
+- Turing’s ‘automatic machines’ were specifically devised for the computing of real numbers. 
+- Today, they are considered to be one of the foundational models of computability and (theoretical) computer science.
+
+## IV Dalis
 
 ### Kvantinio kompiuterio veikimas
 
@@ -396,28 +432,3 @@ Decoding:
 - Paprastos valiutos turi centrinį procesorių transakcijų (pavyzdžiui, **bankas**), kuris registruoja visus atliekamus mokėjimus.
 - Bitcoin transakcijos yra saugomos kiekviename kompiuteryje, kuris yra susijęs su Bitcoin. Būtent ši saugykla vadinama dižiąja knyga (**ledger**).
 - Kiekvienoje transakcijoje, tinklas nuskaito siuntėjo ir gavėjo Bitcoin adresus, kiekį kiek perkelta Bitcoin ir užregistruoja į didžiosios knygos galą arba įrašą, pavadinimu - **Blockchain**. Blockchain yra atnaujinamas apie 100 kartų per dieną ir yra atnaujinamas kiekviename kompiuteryje, kuriame yra naudojama Bitcoin technologija.
-
-### Ląsteliniai automatai
-
-- Ląsteliniai automatai yra diskretinis modelis. Apskritai skirtas sumodeliuot reikalingą situaciją tam tikroje aplinkoje. Cellular automata can simulate a variety of real-world systems, including biological and chemical ones.
-- In two dimensions, the best-known cellular automaton is **Conway's game of life**, discovered by J. H. Conway in 1970.
-- A cellular automaton is a model of a system of “cell” objects with the following characteristics:
-    - The cells live on a **grid**. (We’ll see examples in both one and two dimensions in this chapter, though a cellular automaton can exist in any finite number of dimensions.)
-    - Each cell has a **state**. The number of state possibilities is typically finite. The simplest example has the two possibilities of 1 and 0 (otherwise referred to as “on” and “off” or “alive” and “dead”).
-    - Each cell has a **neighborhood**. This can be defined in any number of ways, but it is typically a list of adjacent cells.
-- Yra sukurta 256 taisykliu, kurios nurodo, kaip elgiasi ląstelės, t.y. kas atsitinka su kaimynais, jeigu viena ląstelė įsijungia arba išsijungia. Vienas populiariausių ir paskaitose nagrinėjome - Rule 30. Its rule outcomes are encoded in the binary representation 30 = 00011110 (base2).
-- One of the many interesting phenomena in life is the existence of "**gliders**": small patterns that move across the grid.
-
-### Fraktalai
-
-- Fraktalas – geometrinis darinys, kurio atskiri dariniai yra panašūs arba identiški visumai arba kitiems fragmentams. Pagrindinė fraktalų savybė – panašumas į save. Kitais žodžiais, maža figūros struktūros dalis atrodo identiška didžiajai.
-- Klasifikijuoami į:
-    1. Tikslus savipanašumas
-    2. Apytikslis savipanašumas
-    3. Statistiniis savipanašumas.
-
-### Chaosas
-
-- **Chaoso sistemos** yra matematikos rūšis, kuri studijuoja dinamiškų sistemų elgesį, kurios labai priklauso nuo pradinės būsenos.
-- Chaoso sistemos nors iš pirmo žvilgsnio atrodo nenuspėjamos, jos susideda iš tam tikrų paternų, pastovių „feedback loops“, repeticijos, fraktalų ir t.t.
-- Chaoso sistemos priklauso nuo pradinės būsenos. Pavyzdžiui, oras ir klimatas. Priklausomai nuo pradinės būsenos, oras gali būt toks ir toks.
